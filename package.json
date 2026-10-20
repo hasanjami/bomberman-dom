@@ -1,0 +1,22 @@
+{
+  "name": "bomberman-dom",
+  "version": "1.0.0",
+  "description": "Real-time multiplayer Bomberman game built with JavaScript, a custom DOM framework, Express and Socket.IO.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasanjami/bomberman-dom.git"
+  },
+  "keywords": [],
+  "author": "Hasan Abbas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
